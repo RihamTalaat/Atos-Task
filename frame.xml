@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Day3 Suite" thread-count="5" parallel="tests" verbose="5">
+    <test name="onchrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.RegisterTest"></class>
+        </classes>
+    </test>
+    <test name="onfirefox">
+        <parameter name="browser" value="fireFox"/>
+        <classes>
+            <class name="tests.RegisterTest"></class>
+        </classes>
+
+    </test><!-- Test
+    <test name="onHeadless">
+        <parameter name="browser" value="headless"/>
+        <classes>
+            <class name="test.Day1"></class>
+        </classes>
+
+    </test>
+    <test name="onChromeHeadless">
+        <parameter name="browser" value="chrome_headless"/>
+        <classes>
+            <class name="test.Day1"></class>
+        </classes>
+
+    </test>    Test -->
+</suite> <!-- Suite -->

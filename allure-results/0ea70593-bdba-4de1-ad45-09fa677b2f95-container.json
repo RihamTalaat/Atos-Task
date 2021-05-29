@@ -1,0 +1,1 @@
+{"uuid":"0ea70593-bdba-4de1-ad45-09fa677b2f95","name":"tests.RegisterTest","children":["8e8a33d1-5572-4e59-bd2d-17d941ded7a7"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1621888387630,"stop":1621888391531}],"afters":[],"links":[],"start":1621888387561,"stop":1621888398273}
